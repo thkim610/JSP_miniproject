@@ -7,6 +7,11 @@ public class UserDTO {
 	private String userName;
 	private String userGender;
 	private String userEmail;
+	
+	public UserDTO() {
+		super();
+	}
+	
 	public String getUserID() {
 		return userID;
 	}

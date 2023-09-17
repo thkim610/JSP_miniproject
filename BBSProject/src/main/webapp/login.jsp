@@ -41,7 +41,7 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
-				<form method="post" action="loginAction.jsp"><!-- post방식: 어떠한 정보를 url 창에서 숨기면서 보낼 때 사용. -->
+				<form method="get" action="loginAction.jsp"><!-- post방식: 어떠한 정보를 url 창에서 숨기면서 보낼 때 사용. -->
 					<h3 style="text-align: center;">로그인 화면</h3>
 					<div class="form-group">
 						<input type="text" class="form-controll" placeholder="아이디" name="userID" maxlength="20">
