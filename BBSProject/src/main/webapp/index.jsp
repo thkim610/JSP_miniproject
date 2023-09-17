@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Hello world</title>
+<title>JSP 게시판 웹사이트</title>
 </head>
 <body>
 Hello World!
-	<script></script>
+	<script>
+		location.href = 'login.jsp'; //login.jsp로 이동시키는 함수
+	</script>
 </body>
 </html>
